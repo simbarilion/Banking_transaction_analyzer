@@ -195,7 +195,7 @@ setup_logger()
 
 ### Установка
 ```
-git clone https://github.com/nadezhdapopova-spec/Banking_transaction_analyzer
+git clone https://github.com/simbarilion/Banking_transaction_analyzer
 cd FinanceAnalytics
 poetry install
 poetry shell
@@ -284,7 +284,7 @@ pytest tests/ -v
 
 ### Лицензия:
 
-Проект распространяется под [лицензией MIT](https://github.com/nadezhdapopova-spec/client-banking-widget/blob/main/LICENSE)
+Проект распространяется под [LICENSE](LICENSE)
 
 ### Автор
 
@@ -294,4 +294,4 @@ Python Developer
 
 📧 nadezhdapopova13@yandex.ru
 
-🔗 GitHub: nadezhdapopova-spec
+🔗 GitHub: simbarilion
