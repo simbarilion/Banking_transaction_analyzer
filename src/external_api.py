@@ -27,7 +27,7 @@ def get_currency_rates() -> list[dict]:
         for cur in valid_for_conversion:
             params = {
                 "symbol": f"{cur}/{cur_to}",
-                "apikey": os.getenv('API_KEY_twelvedata')
+                "apikey": os.getenv("API_KEY_TWELVEDATA")
             }
 
             response = requests.get(url, params=params)
@@ -73,7 +73,7 @@ def get_stock_prices() -> list[dict]:
         for stock in valid_stocks:
             params = {
                 "symbol": stock,
-                "apikey": os.getenv('API_KEY_twelvedata')
+                "apikey": os.getenv("API_KEY_TWELVEDATA")
             }
 
             response = requests.get(url, params=params)

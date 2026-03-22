@@ -61,7 +61,7 @@
 
 - API-ключ передается через переменную окружения:
 ```
-API_KEY_twelvedata
+API_KEY_TWELVEDATA
 ```
 
 ### Архитектура проекта
@@ -212,7 +212,7 @@ poetry shell
 ```
 Добавьте переменную окружения:
 ```
-API_KEY_twelvedata=your_api_key_here
+API_KEY_TWELVEDATA=your_api_key_here
 ```
 
 #### Запуск

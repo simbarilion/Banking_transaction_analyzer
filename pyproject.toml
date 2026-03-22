@@ -1,5 +1,6 @@
 [project]
 name = "banking-transaction-analyzer"
+package-mode = false
 version = "0.1.0"
 description = "backend module for analyzing banking transactions and generating financial analytics"
 authors = [
